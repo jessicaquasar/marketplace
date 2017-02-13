@@ -1,0 +1,49 @@
+body {
+
+    width: 100%;
+    font-family: segoe Ui;
+    background-color: aliceblue;
+}
+
+.card-action {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#button {
+    font-size: 14px;
+    border-radius: 3em;
+}
+
+#image {
+    margin-left: 380px;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 50px !important;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    h1 {
+        font-size: 40px !important;
+    }
+}
